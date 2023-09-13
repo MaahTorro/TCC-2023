@@ -95,3 +95,36 @@
 .cards h1 {
   text-align: center;
 }
+
+.titulos {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 20px;
+}
+
+.graf {
+  background-color: #143cc9;
+  width: 80px;
+  height: 160px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  border-radius: 5px 5px 0px 0px;
+}
+
+.graf p {
+  color: white;
+  height: 80%;
+  font-weight: 700;
+  font-size: 22px;
+  display: flex;
+  text-align: center;
+  align-items: end;
+}
+
+.graficos {
+  display: flex;
+  justify-content: space-evenly;
+
+}
