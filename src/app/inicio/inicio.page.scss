@@ -26,14 +26,14 @@
 
 .info-box h2 {
     color: #1765DB;
-    font-size: 18px;
+    font-size: 20px;
     margin: 0%;
     font-weight: 700;
 }
 
 .info-box p {
     color: #212C4A;
-    font-size: 14px;
+    font-size: 16px;
     text-align: center;
     margin: 0%;
     font-weight: 700;
@@ -92,8 +92,8 @@ ion-tabs {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    width: 318px;
-    height: 200px;
+    width: 90%;
+    height: 190px;
     background-color: #ffffff;
     box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.25);
     border-radius: 5px;
@@ -107,14 +107,14 @@ ion-tabs {
   }
   
   .lembretes {
-    height: 50px;
-    width: 280px;
+    height: 45px;
+    width: 90%;
     background-color: #ffffff;
     box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.25);
     display: flex;
     align-items: center;
     border-radius: 5px;
-    margin-top: 5px;
+    margin-top: 8px;
   }
   
   .backgroundlogo ion-icon {
@@ -128,8 +128,8 @@ ion-tabs {
   
   .backgroundlogo {
     background-color: #00b1b1;
-    height: 50px;
-    width: 50px;
+    height: 45px;
+    width: 45px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -152,13 +152,15 @@ ion-tabs {
   }
   
   .box-estat {
-    width: 318px;
-    height: 200px;
+    width: 90%;
+    height: 190px;
     background-color: white;
     box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.25);
     display: flex;
     justify-content: space-around;
     align-items: center;
+    border-radius: 5px;
+
   }
   
   .estat {
@@ -178,6 +180,7 @@ ion-tabs {
     display: flex;
     align-items: center;
     justify-content: center;
+    margin-top: 10px;
   
   }
   
@@ -185,4 +188,72 @@ ion-tabs {
     font-size: 12px;
     margin-left: 5px;
   }
+
+  .flex-estat {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
   
+
+  .backgroundvender {
+    background-color: #00b1b1;
+    height: 45px;
+    width: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px 0px 0px 5px;
+  }
+  
+  .backgroundvender p {
+    color: #ffffff;
+    text-align: center;
+    margin: 0;
+    font-size: 24px;
+    font-weight: bold;
+  }
+
+  .backgroundvender ion-icon {
+    color: white;
+    font-size: 34px;
+    font-weight: 700;
+  }
+
+  .box-vender {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 90%;
+    height: 250px;
+    background-color: #ffffff;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 5px;
+    margin-bottom: 50px;
+  }
+
+  button p {
+    color: #000000;
+    text-align: center;
+    margin: 0;
+    font-size: 16px;
+  }
+
+  button ion-icon {
+    color: white;
+    font-size: 34px;
+    font-weight: 700;
+  }
+
+.precoeproduto {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 80%;
+}
+
+ion-buttons {
+  align-self: flex-end;
+}
