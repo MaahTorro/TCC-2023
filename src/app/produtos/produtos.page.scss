@@ -142,3 +142,18 @@
   align-items: center;
   justify-content: center;
 }
+
+.titulo-prod {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  font-size: 20px;
+  margin: 0;
+  padding: 0;
+}
+
+.titulo-prod p {
+  margin: 0;
+  padding: 0;
+}
